@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: rgb(255, 255, 255);
+  background-color: #2F3136;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #2e94d8;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #2e94d8;
+}
+.content {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  color: #f2f2f2
+}
+
+.item-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #28292D;
+}
+.item-preview:hover {
+  box-shadow: 1px 3px 5px #28292D;
+}
+.item-preview h2 {
+  font-size: 20px;
+  color: #2e94d8;
+  margin-bottom: 8px;
+}
+.item-preview a {
+  text-decoration: none;
+}
+
+.item-details h2 {
+  font-size: 20px;
+  color: #2e94d8;
+  margin-bottom: 10px;
+}
+.item-details div {
+  margin: 20px 0;
+}
+.item-details button {
+  background:#2e94d8;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.shop {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.shop label {
+  text-align: left;
+  display: block;
+}
+.shop h2 {
+  font-size: 20px;
+  color: #2e94d8;
+  margin-bottom: 30px;
+}
+.shop input, .shop textarea, .shop select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.shop button {
+  background: #2e94d8;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.not-found {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
